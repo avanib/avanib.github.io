@@ -1,9 +1,10 @@
 /** {
     border: 1px solid red !important;
 }
+
 */
 body {
-    background-color: #dcdbdf;
+    background-color: #c9cad9;
 }
 
 h1 {
@@ -14,13 +15,26 @@ h1 {
 
 h2 {
     font-family: 'Archivo Narrow', sans-serif;
+    font-size:  50px;
+    color: #3e103c;
+}
+
+h3 {
+    font-family: 'Archivo Narrow', sans-serif;
     font-size:  24px;
     color: #4f6d7a;
 }
 
-h3 {
+
+h4 {
+    margin-top:20px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+}
+
+.logo {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 24px;
 }
 
 .row {
@@ -36,6 +50,7 @@ h3 {
     left: 0;
     right: 0;
     margin:auto;
+    background-image:"mtn.jpg";
 }
 
 .home{
@@ -59,4 +74,10 @@ h3 {
 
 .top-buffer {
     padding-top:15px;
+}
+
+.me-img{
+    margin-top:10%;
+    margin-left:35%;
+    width:200px;
 }
