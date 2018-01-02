@@ -25,7 +25,6 @@ h3 {
     color: #4f6d7a;
 }
 
-
 h4 {
     margin-top:20px;
     font-family: 'Roboto', sans-serif;
@@ -50,7 +49,6 @@ h4 {
     left: 0;
     right: 0;
     margin:auto;
-    background-image:"mtn.jpg";
 }
 
 .home{
@@ -76,8 +74,17 @@ h4 {
     padding-top:15px;
 }
 
-.me-img{
-    margin-top:10%;
-    margin-left:35%;
-    width:200px;
+.me-img {
+    width:120px;
+}
+
+.blurb {
+    max-width: 750px;
+    height: 75%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
 }
